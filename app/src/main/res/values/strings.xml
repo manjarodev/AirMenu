@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Air Menu Uber Link</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password">@#$CATtech1</string>
+    <string name="error_message">Current order lost, please check the uber order panel.</string>
+    <string name="text_ok">OK</string>
+</resources>

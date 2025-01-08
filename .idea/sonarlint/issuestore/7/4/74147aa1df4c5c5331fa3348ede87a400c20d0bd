@@ -1,0 +1,41 @@
+
+Fkotlin:S108Á")Either remove or fill this block of code.(ÍÖ¥ºÿÿÿÿÿ
+Fkotlin:S108–")Either remove or fill this block of code.(ÍÖ¥ºÿÿÿÿÿ
+Fkotlin:S108É")Either remove or fill this block of code.(ÍÖ¥ºÿÿÿÿÿ
+Fkotlin:S108ê")Either remove or fill this block of code.(ÍÖ¥ºÿÿÿÿÿ
+Fkotlin:S108›")Either remove or fill this block of code.(ÍÖ¥ºÿÿÿÿÿ
+Fkotlin:S108	")Either remove or fill this block of code.(±ß–ûÿÿÿÿ
+Fkotlin:S108¼	")Either remove or fill this block of code.(±ß–ûÿÿÿÿ
+Tkotlin:S1172~"7Use "_" instead of this unused lambda parameter "uber".(ûÒÕ±øÿÿÿÿ
+Nkotlin:S1172†"5Use "_" instead of this unused lambda parameter "id".(ıÏˆ›
+Pkotlin:S1172¤"2Use "_" instead of these unused lambda parameters.(Ğ¸ºãùÿÿÿÿ
+Qkotlin:S1172Ğ"9Use "_" instead of this unused lambda parameter "dialog".(ó™ß1
+Qkotlin:S1172¨"9Use "_" instead of this unused lambda parameter "dialog".(ó™ß1
+Pkotlin:S1172·"2Use "_" instead of these unused lambda parameters.(Ğ¸ºãùÿÿÿÿ
+Pkotlin:S1172Õ"2Use "_" instead of these unused lambda parameters.(˜¨ìîşÿÿÿÿ
+Xkotlin:S1172ù"?Use "_" instead of this unused lambda parameter "taskSnapshot".(Ã¸Ş
+Pkotlin:S1135¤"2Complete the task associated to this TODO comment.(¹’ıÿÿÿÿ
+Nkotlin:S1481"0Remove this unused "posMetaData" local variable.(Ú„Ëêûÿÿÿÿ
+Tkotlin:S1481"6Remove this unused "autoAcceptEnabled" local variable.(Ë§õùüÿÿÿÿ
+Qkotlin:S1481"8Remove this unused "orderReleaseEnabled" local variable.(ŞÂŒÈ
+Ckotlin:S1481‹",Remove this unused "storeId" local variable.(—´W
+2kotlin:S1128"Remove unused import.(ú¹ÚÇüÿÿÿÿ
+2kotlin:S1128*"Remove unused import.(‰¿Ø§üÿÿÿÿ
+-kotlin:S1128+"Remove unused import.(¯ª¹£
+2kotlin:S1128-"Remove unused import.(’—ÄÑùÿÿÿÿ
+2kotlin:S1128:"Remove unused import.(„õã÷ûÿÿÿÿ
+rkotlin:S1192m"UDefine a constant instead of duplicating this literal "Stop AirMenu service" 3 times.(ÿóÈ˜ùÿÿÿÿ
+dkotlin:S1192"KDefine a constant instead of duplicating this literal "Connected." 5 times.(´ÿœô
+okotlin:S1192µ"VDefine a constant instead of duplicating this literal "Start AirMenu service" 4 times.(÷ï
+fkotlin:S1192ô"HDefine a constant instead of duplicating this literal "Bearer " 5 times.(€‰«Îúÿÿÿÿ
+mkotlin:S1192•"TDefine a constant instead of duplicating this literal "POS status changed." 3 times.(ÒÉÒ”
+ƒkotlin:S1192"eDefine a constant instead of duplicating this literal "POS enabled and Connected with Uber." 5 times.(¡›¨ûÿÿÿÿ
+ƒkotlin:S1192¥"jDefine a constant instead of duplicating this literal "POS disabled and not connected with Uber." 3 times.(‘ÕÂ±
+gkotlin:S1192…"NDefine a constant instead of duplicating this literal "Disconnected." 6 times.(Ù”İ¬
+pkotlin:S3776­"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(èê—ÿÿÿÿÿ
+kkotlin:S3776í"RRefactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.(ù¤íæ
+pkotlin:S3776ı"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(â‰ÑÄüÿÿÿÿ
+jkotlin:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(”½n
+Ukotlin:S1144±"<Remove this unused private "getandUpdateStoreStatus" method.(«­Ë
+Nkotlin:S1144Ô"5Remove this unused private "deProvisionStore" method.(ˆ±‹
+Fkotlin:S1066^".Merge this "if" statement with the nested one.(¨»é¤

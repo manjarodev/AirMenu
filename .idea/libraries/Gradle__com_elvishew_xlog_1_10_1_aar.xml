@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.elvishew:xlog:1.10.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65dca94264f2edaa24b6e9e1b1fbc9a5/xlog-1.10.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11db7e152292be5299df7ab92e280d6d/xlog-1.10.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11db7e152292be5299df7ab92e280d6d/xlog-1.10.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11db7e152292be5299df7ab92e280d6d/xlog-1.10.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.elvishew/xlog/1.10.1/42d7af4749ca41b305cc80aac2ca1b20dc1f6b8/xlog-1.10.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.elvishew/xlog/1.10.1/65053c1ac5a4ee79c9582f52112a7d850861e7ad/xlog-1.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

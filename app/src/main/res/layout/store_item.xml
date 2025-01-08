@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/_4sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_4sdp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/store_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toEndOf="@+id/store_image"
+            android:fontFamily="@font/poppins_medium"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0dp"
+            android:maxLines="2"
+            android:text="ergostek test store 2 - delivery by Restaurant"
+            android:textSize="@dimen/_12ssp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store_name"
+            android:layout_toEndOf="@+id/store_image"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/store_name"
+                    android:layout_toEndOf="@+id/store_image"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_regular"
+                    android:maxLines="2"
+                    android:textColor="@color/black"
+                    android:text="Country"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:id="@+id/store_country"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/store_name"
+                    android:layout_toEndOf="@+id/store_image"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_regular"
+                    android:maxLines="2"
+                    android:text="GB"
+                    android:textSize="@dimen/_10ssp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/store_name"
+                    android:layout_toEndOf="@+id/store_image"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_regular"
+                    android:maxLines="2"
+                    android:textColor="@color/black"
+                    android:text="Status"
+                    android:textSize="@dimen/_10ssp" />
+
+                <TextView
+                    android:id="@+id/store_status"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/store_name"
+                    android:layout_toEndOf="@+id/store_image"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_regular"
+                    android:maxLines="2"
+                    android:textColor="@color/quantum_googgreen"
+                    android:text="Active"
+                    android:textSize="@dimen/_10ssp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/store_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store_image"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_regular"
+            android:maxLines="2"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text="242 Hagley Road, Halesowen, West Midlands, B63 4, GB"
+            android:textSize="@dimen/_10ssp" />
+
+        <ImageView
+            android:id="@+id/store_image"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shop" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

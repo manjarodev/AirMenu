@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "818225585239",
+    "project_id": "airmenu-connector",
+    "storage_bucket": "airmenu-connector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818225585239:android:0aae0f84a41063491d9712",
+        "android_client_info": {
+          "package_name": "com.airmenu.estagio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818225585239-p5l1r7ko7tkmrsp7af39k0u56vdde4kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADWEVs89NTvfpImSyvkYPLMoDR9fYTQHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818225585239-p5l1r7ko7tkmrsp7af39k0u56vdde4kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818225585239:android:267eb1e8bba2d0291d9712",
+        "android_client_info": {
+          "package_name": "com.app.airmenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818225585239-p5l1r7ko7tkmrsp7af39k0u56vdde4kq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADWEVs89NTvfpImSyvkYPLMoDR9fYTQHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818225585239-p5l1r7ko7tkmrsp7af39k0u56vdde4kq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

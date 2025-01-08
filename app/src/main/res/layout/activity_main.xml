@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+<!--   <androidx.appcompat.widget.Toolbar-->
+<!--       android:id="@+id/toolbar"-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:layout_height="wrap_content"-->
+<!--       android:background="@color/purple_500"-->
+<!--       app:title="Setup AirMenu"-->
+<!--       app:titleTextColor="@color/white"-->
+<!--       app:contentInsetLeft="20dp"-->
+<!--       app:contentInsetStart="10dp">-->
+
+<!--   </androidx.appcompat.widget.Toolbar>-->
+
+   <androidx.appcompat.widget.Toolbar
+       android:id="@+id/toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       android:background="@color/purple_500"
+       app:title="Home"
+       app:titleTextColor="@color/white"
+       app:contentInsetLeft="10dp"
+       app:contentInsetStart="10dp">
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/airmenulogo"
+             android:adjustViewBounds="true"
+             android:scaleType="fitCenter"/>
+
+      </FrameLayout>
+
+   </androidx.appcompat.widget.Toolbar>
+
+   <androidx.fragment.app.FragmentContainerView
+       android:id="@+id/nav_host_main"
+       android:name="androidx.navigation.fragment.NavHostFragment"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/toolbar"
+       app:defaultNavHost="true"
+       app:navGraph="@navigation/main_graph" />
+
+</RelativeLayout>

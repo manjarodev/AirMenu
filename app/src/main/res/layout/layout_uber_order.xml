@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:elevation="@dimen/_3sdp"
+    app:cardMaxElevation="@dimen/_3sdp"
+    app:cardBackgroundColor="@color/white"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:fontFamily="@font/poppins_medium"
+                android:text="OrderId :"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/order_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:lines="1"
+                android:fontFamily="@font/poppins_regular"
+                android:text="a365aada-5f35-4f24-912b-e714515206c8"
+                android:textColor="@color/purple_500"
+                android:textSize="@dimen/_9ssp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:fontFamily="@font/poppins_medium"
+                android:text="StoreId :"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/store_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:lines="1"
+                android:fontFamily="@font/poppins_regular"
+                android:text="a365aada-5f35-4f24-912b-e714515206c8"
+                android:textColor="@color/purple_500"
+                android:textSize="@dimen/_9ssp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Status :"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Created"
+                android:textColor="@color/purple_500"
+                android:textSize="@dimen/_10ssp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:fontFamily="@font/poppins_medium"
+                android:text="TimeStamp :"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/time_stamp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:fontFamily="@font/poppins_regular"
+                android:text="2021-11-14T13:45:08Z"
+                android:textColor="@color/purple_500"
+                android:textSize="@dimen/_10ssp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:fontFamily="@font/poppins_medium"
+                android:text="LocalTime :"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/local_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:fontFamily="@font/poppins_regular"
+                android:text="yyyy-MM-dd HH:mm:ss"
+                android:textColor="@color/purple_500"
+                android:textSize="@dimen/_10ssp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

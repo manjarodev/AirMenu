@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">818225585239-p5l1r7ko7tkmrsp7af39k0u56vdde4kq.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">818225585239</string>
+    <string name="google_api_key" translatable="false">AIzaSyADWEVs89NTvfpImSyvkYPLMoDR9fYTQHs</string>
+    <string name="google_app_id" translatable="false">1:818225585239:android:267eb1e8bba2d0291d9712</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyADWEVs89NTvfpImSyvkYPLMoDR9fYTQHs</string>
+    <string name="google_storage_bucket" translatable="false">airmenu-connector.appspot.com</string>
+    <string name="project_id" translatable="false">airmenu-connector</string>
+</resources>

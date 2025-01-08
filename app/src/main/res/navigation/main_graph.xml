@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/fragmentLogin">
+
+   <fragment
+       android:id="@+id/fragmentLogin"
+       android:name="com.app.airmenu.ui.login.FragmentLogin"
+       android:label="fragment_login"
+       tools:layout="@layout/fragment_login" >
+      <action
+          android:id="@+id/action_fragmentLogin_to_fragmentPosIds"
+          app:destination="@id/fragmentPosIds" />
+   </fragment>
+   <fragment
+       android:id="@+id/fragmentPosIds"
+       android:name="com.app.airmenu.ui.posIds.FragmentPosIds"
+       android:label="fragment_pos_ids"
+       tools:layout="@layout/fragment_pos_ids" >
+      <action
+          android:id="@+id/action_fragmentPosIds_to_fragmentNotificationAccess"
+          app:destination="@id/fragmentNotificationAccess" />
+   </fragment>
+   <fragment
+       android:id="@+id/fragmentNotificationAccess"
+       android:name="com.app.airmenu.ui.notification.FragmentNotificationAccess"
+       android:label="fragment_notification_access"
+       tools:layout="@layout/fragment_notification_access" >
+      <action
+          android:id="@+id/action_fragmentNotificationAccess_to_hilt_DivisionIds"
+          app:destination="@id/fragmentDivisionIds" />
+   </fragment>
+   <fragment
+       android:id="@+id/fragmentDivisionIds"
+       android:name="com.app.airmenu.ui.divisionIds.DivisionIds"
+       android:label="Hilt_DivisionIds" >
+      <action
+          android:id="@+id/action_fragmentDivisionIds_to_fragmentUberLogin"
+          app:destination="@id/fragmentUberLogin" />
+   </fragment>
+   <fragment
+       android:id="@+id/fragmentUberLogin"
+       android:name="com.app.airmenu.ui.uberlogin.UberLogin"
+       android:label="UberLogin"
+       tools:layout="@layout/fragment_uber_login"/>
+</navigation>
